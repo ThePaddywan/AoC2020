@@ -2,4 +2,4 @@
 
 Join the fun on https://adventofcode.com/
 
-Place input files in day directory with the Day<number>Input.txt naming scheme.
+Place input files in day directory with the Day[number]Input.txt naming scheme.
