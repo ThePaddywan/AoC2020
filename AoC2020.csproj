@@ -41,35 +41,40 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Day 1\Day1.cs" />
-    <Compile Include="Day 2\Day2.cs" />
-    <Compile Include="Day 2\Password.cs" />
-    <Compile Include="Day 3\Day3.cs" />
+    <Compile Include="Days\Day1\Day1.cs" />
+    <Compile Include="Days\Day2\Day2.cs" />
+    <Compile Include="Days\Day2\Password.cs" />
+    <Compile Include="Days\Day3\Day3.cs" />
+    <Compile Include="HelperClasses\Utilities.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Day 10\" />
-    <Folder Include="Day 11\" />
-    <Folder Include="Day 12\" />
-    <Folder Include="Day 13\" />
-    <Folder Include="Day 14\" />
-    <Folder Include="Day 15\" />
-    <Folder Include="Day 16\" />
-    <Folder Include="Day 17\" />
-    <Folder Include="Day 18\" />
-    <Folder Include="Day 19\" />
-    <Folder Include="Day 20\" />
-    <Folder Include="Day 21\" />
-    <Folder Include="Day 22\" />
-    <Folder Include="Day 23\" />
-    <Folder Include="Day 24\" />
-    <Folder Include="Day 4\" />
-    <Folder Include="Day 5\" />
-    <Folder Include="Day 6\" />
-    <Folder Include="Day 7\" />
-    <Folder Include="Day 8\" />
-    <Folder Include="Day 9\" />
+    <Folder Include="Days\Day10\" />
+    <Folder Include="Days\Day11\" />
+    <Folder Include="Days\Day12\" />
+    <Folder Include="Days\Day13\" />
+    <Folder Include="Days\Day14\" />
+    <Folder Include="Days\Day15\" />
+    <Folder Include="Days\Day16\" />
+    <Folder Include="Days\Day17\" />
+    <Folder Include="Days\Day18\" />
+    <Folder Include="Days\Day19\" />
+    <Folder Include="Days\Day20\" />
+    <Folder Include="Days\Day21\" />
+    <Folder Include="Days\Day22\" />
+    <Folder Include="Days\Day23\" />
+    <Folder Include="Days\Day24\" />
+    <Folder Include="Days\Day4\" />
+    <Folder Include="Days\Day5\" />
+    <Folder Include="Days\Day6\" />
+    <Folder Include="Days\Day7\" />
+    <Folder Include="Days\Day8\" />
+    <Folder Include="Days\Day9\" />
+    <Folder Include="Utilities\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Days\Day2\Day2Input.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

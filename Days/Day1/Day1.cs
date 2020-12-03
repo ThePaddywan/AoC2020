@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AoC2020.HelperClasses;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -6,12 +7,18 @@ using System.Text;
 
 namespace AoC2020.Day1
 {
-    static class Day1
+    class Day1
     {
+        private static List<string> input;
+        static Day1()
+        {
+            input = Utilities.Instance.GetInput(nameof(Day1));
+        }
+
+
         public static void SolvePartOne()
         {
-            List<string> stringValues = File.ReadAllLines(@"C:\Work\AoC\2020\AoC2020\Day 1\Day1Input.txt").ToList<string>();
-            List<int> intValues = stringValues.Select(s => Convert.ToInt32(s)).ToList();
+            List<int> intValues = input.Select(s => Convert.ToInt32(s)).ToList();
             foreach (int line in intValues)
             {
                 if (intValues.Find(z => z == 2020 - line) > 0)
@@ -25,8 +32,7 @@ namespace AoC2020.Day1
 
         public static void SolvePartTwo()
         {
-            List<string> stringValues = File.ReadAllLines(@"C:\Work\AoC\2020\AoC2020\Day 1\Day1Input.txt").ToList<string>();
-            List<int> intValues = stringValues.Select(s => Convert.ToInt32(s)).ToList();
+            List<int> intValues = input.Select(s => Convert.ToInt32(s)).ToList();
             foreach (int line in intValues)
             {
                 foreach (int newLine in intValues)
