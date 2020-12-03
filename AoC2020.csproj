@@ -44,6 +44,7 @@
     <Compile Include="Day 1\Day1.cs" />
     <Compile Include="Day 2\Day2.cs" />
     <Compile Include="Day 2\Password.cs" />
+    <Compile Include="Day 3\Day3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -63,7 +64,6 @@
     <Folder Include="Day 22\" />
     <Folder Include="Day 23\" />
     <Folder Include="Day 24\" />
-    <Folder Include="Day 3\" />
     <Folder Include="Day 4\" />
     <Folder Include="Day 5\" />
     <Folder Include="Day 6\" />

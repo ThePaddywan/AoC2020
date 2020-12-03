@@ -16,8 +16,13 @@ namespace AoC2020
 
             #region Day 2
             //Day2.Day2.SolvePartOne();
-            Day2.Day2.SolvePartTwo();
+            //Day2.Day2.SolvePartTwo();
             #endregion Day 2
+
+            #region Day 3
+            //Day3.Day3.SolvePartOne();
+            Day3.Day3.SolvePartTwo();
+            #endregion Day 3
 
         }
     }
