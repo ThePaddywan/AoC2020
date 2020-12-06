@@ -1,4 +1,4 @@
-﻿namespace AoC2020.Day2
+﻿namespace AoC2020.Days.Day2
 {
     class Password
     {

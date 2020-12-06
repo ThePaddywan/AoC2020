@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace AoC2020.Day1
+namespace AoC2020.Days.Day1
 {
     class Day1
     {

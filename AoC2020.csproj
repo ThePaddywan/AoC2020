@@ -45,6 +45,9 @@
     <Compile Include="Days\Day2\Day2.cs" />
     <Compile Include="Days\Day2\Password.cs" />
     <Compile Include="Days\Day3\Day3.cs" />
+    <Compile Include="Days\Day4\Day4.cs" />
+    <Compile Include="Days\Day5\Day5.cs" />
+    <Compile Include="Days\Day5\Seat.cs" />
     <Compile Include="HelperClasses\Utilities.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -65,16 +68,11 @@
     <Folder Include="Days\Day22\" />
     <Folder Include="Days\Day23\" />
     <Folder Include="Days\Day24\" />
-    <Folder Include="Days\Day4\" />
-    <Folder Include="Days\Day5\" />
     <Folder Include="Days\Day6\" />
     <Folder Include="Days\Day7\" />
     <Folder Include="Days\Day8\" />
     <Folder Include="Days\Day9\" />
     <Folder Include="Utilities\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Days\Day2\Day2Input.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

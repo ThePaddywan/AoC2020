@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace AoC2020.Day3
+namespace AoC2020.Days.Day3
 {
     public static class Day3
     {
