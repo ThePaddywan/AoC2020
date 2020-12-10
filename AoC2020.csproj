@@ -8,9 +8,10 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>AoC2020</RootNamespace>
     <AssemblyName>AoC2020</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -21,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -30,6 +32,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -44,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Days\Day10\Day10.cs" />
     <Compile Include="Days\Day1\Day1.cs" />
     <Compile Include="Days\Day2\Day2.cs" />
     <Compile Include="Days\Day2\Password.cs" />
@@ -55,12 +59,14 @@
     <Compile Include="Days\Day6\Group.cs" />
     <Compile Include="Days\Day7\Bag.cs" />
     <Compile Include="Days\Day7\Day7.cs" />
+    <Compile Include="Days\Day8\Day8.cs" />
+    <Compile Include="Days\Day8\Instruction.cs" />
+    <Compile Include="Days\Day9\Day9.cs" />
     <Compile Include="HelperClasses\Utilities.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Days\Day10\" />
     <Folder Include="Days\Day11\" />
     <Folder Include="Days\Day12\" />
     <Folder Include="Days\Day13\" />
@@ -75,11 +81,10 @@
     <Folder Include="Days\Day22\" />
     <Folder Include="Days\Day23\" />
     <Folder Include="Days\Day24\" />
-    <Folder Include="Days\Day8\" />
-    <Folder Include="Days\Day9\" />
     <Folder Include="Utilities\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
