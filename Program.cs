@@ -1,5 +1,8 @@
 ﻿using AoC2020.Days.Day1;
 using AoC2020.Days.Day10;
+using AoC2020.Days.Day11;
+using AoC2020.Days.Day12;
+using AoC2020.Days.Day13;
 using AoC2020.Days.Day2;
 using AoC2020.Days.Day3;
 using AoC2020.Days.Day4;
@@ -65,8 +68,8 @@ namespace AoC2020
             #endregion Day 9
 
             #region Day 10
-            Day10.SolvePartOne();
-            Day10.SolvePartTwo();
+            //Day10.SolvePartOne();
+            //Day10.SolvePartTwo();
             #endregion Day 10
 
             #region Day 11
@@ -80,8 +83,8 @@ namespace AoC2020
             #endregion Day 12
 
             #region Day 13
-            //Day13.SolvePartOne();
-            //Day13.SolvePartTwo();
+            Day13.SolvePartOne();
+            Day13.SolvePartTwo();
             #endregion Day 13
 
             #region Day 14

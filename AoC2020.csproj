@@ -37,6 +37,9 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\portable-net45+win8+wp8+wpa81\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
     <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\System.ValueTuple.4.5.0\lib\portable-net40+sl4+win8+wp8\System.ValueTuple.dll</HintPath>
     </Reference>
@@ -48,6 +51,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Days\Day10\Day10.cs" />
+    <Compile Include="Days\Day11\Day11.cs" />
+    <Compile Include="Days\Day11\Seat.cs" />
+    <Compile Include="Days\Day12\Day12.cs" />
+    <Compile Include="Days\Day12\Instruction.cs" />
+    <Compile Include="Days\Day13\Day13.cs" />
+    <Compile Include="Days\Day14\Day14.cs" />
+    <Compile Include="Days\Day13\Shuttle.cs" />
     <Compile Include="Days\Day1\Day1.cs" />
     <Compile Include="Days\Day2\Day2.cs" />
     <Compile Include="Days\Day2\Password.cs" />
@@ -67,10 +77,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Days\Day11\" />
-    <Folder Include="Days\Day12\" />
-    <Folder Include="Days\Day13\" />
-    <Folder Include="Days\Day14\" />
     <Folder Include="Days\Day15\" />
     <Folder Include="Days\Day16\" />
     <Folder Include="Days\Day17\" />
